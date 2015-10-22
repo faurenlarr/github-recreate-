@@ -15,6 +15,7 @@ $('.thumbnail').html(pic);
 $('.followers').html(followers);
 $('.following').html(following);
 $('.starred').html(starred);
+$('.orgpic').html("<img src='" + users.organizations_url + "'>");
 
 $('.repotab').click(function(event){
   event.preventDefault();

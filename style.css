@@ -75,7 +75,8 @@ body {
   .bothcolumns .location {
     font-size: 14px;
     padding-left: 10px;
-    display: inline-block; }
+    display: inline-block;
+    padding-top: -22px; }
   .bothcolumns .createdat {
     font-size: 14px;
     margin-left: 9px;
@@ -114,7 +115,7 @@ body {
     width: 52%;
     margin-left: 161px;
     margin-right: auto;
-    padding-top: 46px; }
+    padding-top: 0; }
 
 #toparea {
   width: 60%;
@@ -131,7 +132,7 @@ body {
     border-right: 1px solid #cccccc;
     border-left: 1px solid #cccccc;
     padding-top: 10px;
-    padding-bottom: 8px;
+    padding-bottom: 20px;
     padding-left: 10px; }
   .column2 .publicactivitytab {
     display: inline-block;
@@ -154,10 +155,18 @@ body {
   .repoSearchTab .newBtn {
     color: white;
     background-color: #6fc950;
-    border-radius: 5px; }
+    border-radius: 5px;
+    padding-left: 14px;
+    padding-right: 14px; }
   .repoSearchTab li {
     display: inline-block;
-    list-style-type: none; }
+    list-style-type: none;
+    padding-left: 5px;
+    font-size: 15px;
+    color: #4078c0; }
+
+#continfo {
+  display: none; }
 
 #publicinfo {
   display: none; }
@@ -195,11 +204,27 @@ body {
   display: inline-block;
   margin-left: 166px; }
 
-.ups li {
-  display: inline-block;
-  text-decoration: none;
-  width: 15%;
-  padding-right: 0px;
-  padding-top: 10px;
-  color: #4078c0;
-  padding-left: 0px; }
+.ups {
+  padding-left: 35px; }
+  .ups li {
+    display: inline-block;
+    text-decoration: none;
+    width: 15%;
+    padding-right: 0px;
+    padding-top: 10px;
+    color: #4078c0;
+    padding-left: 0px; }
+  .ups .words {
+    padding-left: 133px;
+    padding-bottom: 5px; }
+    .ups .words p {
+      display: inline-block;
+      color: #cccccc;
+      font-size: 12px;
+      padding: 10px; }
+      .ups .words p #one {
+        padding-right: 17px; }
+      .ups .words p #two {
+        padding-left: 17px; }
+      .ups .words p #three {
+        padding-left: 9px; }

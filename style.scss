@@ -111,6 +111,7 @@ body {
             font-size: 14px;
             padding-left: 10px;
             display: inline-block;
+            padding-top: -22px;
 
           }
           .createdat {
@@ -169,7 +170,7 @@ body {
         width: 52%;
         margin-left: 161px;
         margin-right: auto;
-        padding-top: 46px;
+        padding-top: 0;
       }
       .followers {
 
@@ -193,7 +194,7 @@ body {
           border-right: 1px solid #cccccc;
           border-left: 1px solid #cccccc;
           padding-top: 10px;
-          padding-bottom: 8px;
+          padding-bottom: 20px;
           padding-left: 10px;
 
 
@@ -228,15 +229,23 @@ body {
               color: white;
               background-color: #6fc950;
               border-radius: 5px;
+              padding-left: 14px;
+              padding-right: 14px;
             }
             li {
               display: inline-block;
               list-style-type: none;
+              padding-left: 5px;
+              font-size: 15px;
+              color: #4078c0;
             }
+
 }
 
 
-
+#continfo {
+  display: none;
+}
 
 #publicinfo {
   display: none;
@@ -278,7 +287,9 @@ body {
   margin-left: 166px;
 
 }
-.ups li {
+.ups {
+  padding-left: 35px;
+li {
   display: inline-block;
   text-decoration: none;
   width: 15%;
@@ -286,4 +297,28 @@ body {
   padding-top: 10px;
   color: #4078c0;
   padding-left: 0px;
+}
+ .words {
+   padding-left: 133px;
+   padding-bottom: 5px;
+           p {
+             display: inline-block;
+             color: #cccccc;
+             font-size: 12px;
+             padding: 10px;
+
+              #one {
+                padding-right: 17px;
+              }
+
+              #two {
+                padding-left:17px;
+
+              }
+              #three {
+                  padding-left: 9px;
+              }
+           }
+
+         }
 }
