@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="bower_components/normalize-css/normalize.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="bower_components/octicons/octicons/octicons.css" media="screen" title="no title" charset="utf-8">
     <link charset="utf-8" href="style.css" media="screen" rel="stylesheet" title="no title" type="text/css">
+
+
 </head>
 <body>
     <div class="header">
@@ -71,12 +73,11 @@
                            </div>
                            <h2>Organizations</h2>
                            <div class="orgpic">
-
+                              <img src="https://avatars2.githubusercontent.com/u/14251473?v=3&s=200" alt="" />
                            </div>
                     </section>
 
                     <section class="column2">
-
                       <div class="contributionstab">
                         <span class="octicon octicon-diff-added"></span>
 
@@ -93,9 +94,12 @@
 
                         <a href="">Public Activity</a>
                       </div>
+
+                      <input type="button" name="edittab" class="edit" value="Edit profile">
+                          <hr>
                       <div class="repoSearchTab">
-                          <input type="text" name="Search" placeholder="Find a Repository..." value="">
-                          <input type="button" name="Searchbtn" value="Search">
+                          <input type="text" name="Search" class="typehere" placeholder="Find a Repository..." value="">
+                          <input class="buttonclass" type="button" name="Searchbtn" value="Search">
                           <li style="color: black">All</li>
                           <li>Public</li>
                           <li>Private</li>
@@ -103,7 +107,11 @@
                           <li>Forks</li>
                           <li>Mirrors</li>
 
+
+
                           <input type="button" name="New" value="New" class="newBtn">
+
+
                       </div>
 
                         <ul id="repoinfo">

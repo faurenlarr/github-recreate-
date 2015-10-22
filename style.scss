@@ -1,6 +1,7 @@
 body {
   width: 100%;
   font-family: sans-serif;
+
 }
 .header , .footer {
   width: 100%;
@@ -14,13 +15,13 @@ body {
 }
 .wrapper {
   width: 100%;
-  margin-left: 141px;
+  margin-left: 71px;
   margin-right: auto;
 
 }
 .navbar {
   width: 100%;
-  margin-left: 120px;
+  margin-left: 53px;
   margin-right: auto;
   margin-top: -5px;
 
@@ -46,7 +47,7 @@ body {
                   padding-left: 0;
 
                       .octicon-bell {
-                          margin-left: 100px;
+                          margin-left: 134px;
                       }
                       .octicon-plus {
                         margin-left: 5px;
@@ -125,6 +126,7 @@ body {
 .column1 {
   width: 30%;
   display: inline-block;
+
   h2 {
     font-weight: bold;
     margin-left: 160px;
@@ -175,8 +177,12 @@ body {
       .followers {
 
       }
+      .orgpic {
+        padding-left: 160px;
+      }
 
 }
+
 
 #toparea {
   width: 60%;
@@ -185,17 +191,20 @@ body {
 
 .column2 {
   display: inline-block;
-  width: 43%;
+  width: 45%;
   vertical-align: top;
         .repotab {
           margin-top: 28px;
           display: inline-block;
-          border-top: 1px solid #cccccc;
-          border-right: 1px solid #cccccc;
-          border-left: 1px solid #cccccc;
+          // border-top: 1px solid #cccccc;
+          // border-right: 1px solid #cccccc;
+          // border-left: 1px solid #cccccc;
           padding-top: 10px;
           padding-bottom: 20px;
           padding-left: 10px;
+          // background-color: white;
+          // border: 1px solid gray;
+          // border-bottom: none;
 
 
 
@@ -217,20 +226,37 @@ body {
           padding-left: 5px;
 
         }
+        ul#repoinfo {
+          padding-left: 0;
+        }
+        .edit {
+          border-radius: 5px;
+          background-color: #ededed;
+          margin-left: 83px;
+        }
 }
 
 .repoSearchTab {
-  border-top: 1px solid #cccccc;
+  // border-top: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc;
   padding-top: 20px;
   padding-bottom: 20px;
-
+              .buttonclass {
+                border-radius: 5px;
+                background-color: #ededed;
+                padding: 10px;
+              }
+            .typehere {
+              padding: 10px;
+            }
             .newBtn {
               color: white;
               background-color: #6fc950;
               border-radius: 5px;
-              padding-left: 14px;
+              padding-left: 12px;
               padding-right: 14px;
+              font-size: 12px;
+              padding: 10px;
             }
             li {
               display: inline-block;
@@ -249,15 +275,21 @@ body {
 
 #publicinfo {
   display: none;
+  // padding-left: 0;
 }
-#repoinfo li {
+#repoinfo {
+
+li {
   list-style: none;
+
                     a {
                       text-decoration: none;
                       list-style: none;
                       color: #cccccc;
                     }
             }
+
+      }
 .repoName {
   color: #4078c0;
   font-size: 20px;
@@ -321,4 +353,62 @@ li {
            }
 
          }
+}
+
+// public info tab
+
+.pubFork  a{
+  text-decoration: none;
+  color: #4078c0;
+  display: inline-block;
+}
+.pubSha  a{
+  text-decoration: none;
+  color: #4078c0;
+  display: inline-block;
+  border-bottom: 1px solid #cccccc;
+}
+.pubRepoName  a{
+  text-decoration: none;
+  color: #4078c0;
+  display: inline-block;
+}
+.pubName  a{
+  text-decoration: none;
+  color: #4078c0;
+  display: inline-block;
+}
+
+#publicinfo {
+    list-style: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding: -22px;
+    width: 100%;
+    margin-right: 0;
+    padding-left: 0;
+li {
+    margin-bottom: 10px;
+            div {
+            display: inline-block;
+
+          }
+}
+}
+.anotherpic img {
+  width: 5%;
+  border-radius: 5px;
+  margin-left: -23px;
+  margin-bottom: -4px;
+  display: inline-block;
+}
+.cat span {
+  color: #cccccc;
+  display: inline-block;
+}
+.cat {
+  display: inline-block;
+}
+.anotherpic {
+  display: inline-block;
 }
