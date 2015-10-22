@@ -1,0 +1,225 @@
+body {
+  width: 100%;
+  font-family: sans-serif;
+}
+.header , .footer {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header {
+  width: 100%;
+  border: 2px solid #cccccc;
+  background-color: #f5f5f5;
+}
+.wrapper {
+  width: 100%;
+  margin-left: 141px;
+  margin-right: auto;
+
+}
+.navbar {
+  width: 100%;
+  margin-left: 120px;
+  margin-right: auto;
+  margin-top: -5px;
+
+
+
+
+              .mega-octicon {
+                margin-left: 184px;
+              }
+              .input {
+                margin-left: 5px;
+                display: inline-block;
+                // padding-right:181px;
+                border-radius: 5px;
+                padding-right: 10px;
+                width: 20%;
+                height: 28px;
+              }
+              .topwords {
+                display: inline-block;
+
+                ul  {
+                  padding-left: 0;
+
+                      .octicon-bell {
+                          margin-left: 100px;
+                      }
+                      .octicon-plus {
+                        margin-left: 5px;
+                      }
+                        .octicon-triangle-down {
+                          font-size: 10px;
+
+                        }
+
+                        .secondtri {
+                          margin-left: -21px;
+                        }
+                      .thumbnail {
+                            width: 5%;
+                                    img {
+                                      width: 89%;
+                                      border-radius: 5px;
+                                      margin-left: -23px;
+                                      margin-bottom: -4px;
+                                    }
+                              }
+                  li {
+                    display:inline-block;
+                    list-style-type:none;
+                    margin-left: 28px;
+                  }
+                }
+
+              };
+
+
+
+
+        }
+.input {
+  padding-left: 10px;
+    line-height: normal;
+    padding-right: 200px;
+}
+
+
+.bothcolumns {
+    width: 100%;
+    // vertical-align: top;
+
+          h1 {
+              margin-left: 164px;
+              margin-top: 1px;
+              margin-bottom: -15px;
+
+          }
+
+          h3 {
+              font-weight: lighter;
+              margin-left: 164px;
+              border-bottom: 1px solid #cccccc;
+              width: 50%;
+              padding-bottom:15px;
+
+          }
+          .location{
+            font-size: 14px;
+            padding-left: 10px;
+            display: inline-block;
+
+          }
+          .createdat {
+            font-size: 14px;
+            margin-left: 9px;
+            padding-bottom: 10px;
+            width: 40%;
+          }
+}
+
+.column1 {
+  width: 30%;
+  display: inline-block;
+
+          .profilepic {
+                    img {
+                      width: 230px;
+                      height: 230px;
+                      border-radius: 10px;
+                      margin-left: 164px;
+                      margin-top: 20px;
+                    }
+          }
+      .localeandtab {
+                  span {
+                    margin-left: 164px;
+                    color: #cccccc;
+
+                  }
+      }
+      .whenandtab {
+
+
+                  span {
+                    margin-left: 164px;
+                    display: inline-block;
+                    color: #cccccc;
+                  }
+                  p {
+                    display: inline-block;
+                  }
+      }
+      .borderline {
+        border-bottom: 1px solid #cccccc;
+        width: 50%;
+        margin-left: 161px;
+        margin-right: auto;
+      }
+      .borderline2 {
+        border-bottom: 1px solid #cccccc;
+        width: 52%;
+        margin-left: 161px;
+        margin-right: auto;
+        padding-top: 46px;
+      }
+      .followers {
+
+      }
+}
+#toparea {
+  width: 60%;
+  margin-right: -17px;
+}
+
+.column2 {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+        .repotab {
+          margin-top: 28px;
+          display: inline-block;
+        }
+        .publicactivitytab {
+          display: inline-block;
+          padding: 20px;
+        }
+
+        .repotab a , .publicactivitytab a {
+          text-decoration: none;
+          color: black;
+          font-size: 15px;
+          border: 1px solid #cccccc;
+          padding: 10px;
+
+        }
+}
+#publicinfo {
+  display: none;
+}
+#repoinfo li {
+  list-style: none;
+                    a {
+                      text-decoration: none;
+                      list-style: none;
+                      color: #cccccc;
+                    }
+            }
+.repoName {
+  color: #4078c0;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 17px;
+}
+.repoDesc {
+  color: #66666A;
+}
+.repoDate {
+  color: #66666A;
+  font-size: 12px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #cccccc;
+}
