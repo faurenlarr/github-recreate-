@@ -126,7 +126,10 @@ body {
   .column2 .publicactivitytab {
     display: inline-block;
     padding: 20px; }
-  .column2 .repotab a, .column2 .publicactivitytab a {
+  .column2 .contributionstab {
+    display: inline-block;
+    padding-right: 21px; }
+  .column2 .repotab a, .column2 .publicactivitytab a, .column2 .contributionstab a {
     text-decoration: none;
     color: black;
     font-size: 15px;
@@ -157,3 +160,23 @@ body {
   font-size: 12px;
   padding-bottom: 25px;
   border-bottom: 1px solid #cccccc; }
+
+.followers li {
+  display: inline-block;
+  margin-left: 0; }
+
+.following li {
+  display: inline-block; }
+
+.starred h1 {
+  display: inline-block;
+  margin-left: 172px; }
+
+.ups li {
+  display: inline-block;
+  text-decoration: none;
+  width: 15%;
+  padding-right: 12px;
+  padding-top: 10px;
+  color: #4078c0;
+  padding-left: 10px; }

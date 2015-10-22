@@ -1,6 +1,9 @@
 
 var pic = "<img src='" + users.avatar_url + "'>";
 var followers = "<h1>" +  users.followers + "</h1>";
+var following = "<h1>" + users.following + "</h1>";
+var starred = "<h1>" + users.starred + "</h1>";
+
 
 
 $('.name').text(users.name);
@@ -10,11 +13,15 @@ $('.location').text(users.location);
 $('.createdat').text("Joined on " + moment(users.created_at).format("ll"));
 $('.thumbnail').html(pic);
 $('.followers').html(followers);
+$('.following').html(following);
+$('.starred').html(starred);
 
 $('.repotab').click(function(event){
   event.preventDefault();
   $('#repoinfo').css('display', 'block');
   $('#publicinfo').css('display', 'none');
+  $('#continfo').css('display','none');
+
   // $('.repotab').css('border-bottom', 'display','none');
 
 });
@@ -23,6 +30,14 @@ $('.publicactivitytab').click(function(event){
   event.preventDefault();
   $('#repoinfo').css('display', 'none');
   $('#publicinfo').css('display', 'block');
+  $('#continfo').css('display','none');
+});
+
+$('.contributionstab').click(function(event){
+  event.preventDefault();
+  $('#repoinfo').css('display', 'none');
+  $('#publicinfo').css('display', 'none');
+  $('#continfo').css('display','block');
 });
 
 

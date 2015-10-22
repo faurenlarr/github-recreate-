@@ -1,5 +1,6 @@
 var users = {
   "login": "faurenlarr",
+  "starred": "1",
   "id": 14807783,
   "avatar_url": "https://avatars.githubusercontent.com/u/14807783?v=3",
   "gravatar_id": "",
